@@ -10,7 +10,7 @@ Stash All Changes = cất toàn bộ code đang sửa vào “ngăn tủ tạm�
 📌 Có thể lấy lại sau
 
 ## 🗂 Trạng thái trước & sau khi stash
-#🔴 Trước
+# 🔴 Trước
 
 File modified
 
@@ -20,13 +20,13 @@ File chưa add
 
 Code đang dang dở
 
-#🟢 Sau stash
+# 🟢 Sau stash
 
 Working tree sạch
 
 Giống như vừa checkout từ commit mới nhất
 
-#🔧 Thực chất Git làm gì?
+# 🔧 Thực chất Git làm gì?
 git stash
 
 
@@ -58,7 +58,7 @@ git stash pop
 # ✅ Lấy nhưng giữ lại trong stash
 git stash apply
 
-#📦 Nhiều stash thì sao?
+# 📦 Nhiều stash thì sao?
 git stash list
 
 
@@ -68,24 +68,24 @@ stash@{0}: WIP on main: map feature
 stash@{1}: WIP on dev: fix bug
 
 
-#Áp dụng stash cụ thể:
+# Áp dụng stash cụ thể:
 
 git stash apply stash@{1}
 
-#⚠️ Phân biệt với commit
+# ⚠️ Phân biệt với commit
 Stash	Commit
 Tạm thời	Lưu lâu dài
 Không message bắt buộc	Có message
 Không xuất hiện trong history	Có
 Dùng khi code dở	Dùng khi code ổn
-#🚀 Khi nào nên dùng Stash?
+# 🚀 Khi nào nên dùng Stash?
 
 ✔ Đang code dở
 ✔ Cần git pull mà Git không cho
 ✔ Muốn chuyển branch nhanh
 ✔ Tránh commit rác
 
-#🧠 Câu nhớ nhanh
+# 🧠 Câu nhớ nhanh
 
 Stash = Ctrl + Z cho cả project (nhưng an toàn hơn)
 ==================================================
